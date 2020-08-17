@@ -1,40 +1,77 @@
 html,
-body {
+body,* {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
-  
 }
 
-.header{
-    display: flex;
-    width: 98%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px auto;
+.header {
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 0 auto;
+  background-color: white;
+  position: sticky;
+  top: 0;
 }
-.left-icons > button{
-    background: none;
-    border: none;
-    margin: 10px;
+
+.left-icons > button {
+  background: none;
+  border: none;
+  margin: 0 10px;
    
 }
-.left-icons > a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
+
+.left-icons > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
 }
-.subscribe > button{
-background-color: #567B95;
-color: azure;
-padding: 10px;
-margin: 10px 0;
-text-transform: uppercase;
-border: 1px solid;
-border-radius: 5px;
+
+.subscribe > button {
+  background-color: #567B95;
+  color: azure;
+  padding: 10px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 5px;
 }
-.subs{
-    margin-right: 1px;
+
+.subs {
+  margin-right: 1px;
+}
+
+.landing-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.landing-contents img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.landing-contents h1 {
+    font-size: 3em;
+    color: #121212;
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.landing-contents p {
+    text-align: left;
+    font-size: 15px;
+    color: #666666;
+    line-height: 20px;
+    width: 70%;
+    align-self: flex-start;
+    font-family: 'Alata', sans-serif;
 }
