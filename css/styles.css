@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  
+}
+
+.header{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+.left-icons > button{
+    background: none;
+    border: none;
+    margin: 10px;
+   
+}
+.left-icons > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.subscribe > button{
+background-color: #567B95;
+color: azure;
+padding: 10px;
+margin: 10px 0;
+text-transform: uppercase;
+border: 1px solid;
+border-radius: 5px;
+}
+.subs{
+    margin-right: 1px;
+}
