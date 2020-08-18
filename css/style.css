@@ -85,7 +85,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 20px auto 0;
-  width: 38%;
+  width: 45%;
 }
 
 .socials {
@@ -126,7 +126,7 @@ body {
   flex-direction: column;
   width: 15%;
   margin-top: -22em;
-  margin-right: 10%;
+  margin-right: 6%;
   float: right;
   align-items: flex-end;
 }
@@ -157,8 +157,8 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  width: 38%;
-  margin-left: 29em;
+  width: 45%;
+  margin-left: 25.5em;
 }
 
 .inflation-section {
@@ -215,13 +215,10 @@ body {
   min-height: 70vh;
   background-image: url("../assets/images/photo_2020-08-17_23-54-05.jpg");
   background-repeat: no-repeat;
-  background-position: top center; /* Visible 30 px from the top */
-  border: 1px solid yellow;
   background-size: contain;
 }
 
 .inf p {
-  /* position: absolute; */
   margin-top: 130px;
   font-size: 15px;
   color: #666;
@@ -252,4 +249,33 @@ body {
 .img-desc {
   color: #666;
   margin-top: 10px;
+}
+
+
+.para-1 {
+  margin: -2px;
+  font-size: 13px;
+  line-height: 1.5em;
+  color: #666;
+}
+
+.para-1 a {
+  text-decoration: none;
+  color: #666;
+}
+
+.socials-down {
+  width: 45%;
+  margin: 20px auto;
+}
+
+.socials button {
+  background-color: #326891;
+  width: 50%;
+  padding: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
 }
