@@ -17,10 +17,13 @@ a {
   text-decoration: none;
 }
 
+.flex {
+  display: flex;
+}
+
 /* header styles */
 
 .header {
-  display: flex;
   width: 98%;
   justify-content: space-between;
   align-items: center;
@@ -58,7 +61,6 @@ a {
 /* Landing Content styles */
 
 .landing-contents {
-  display: flex;
   flex-direction: column;
   align-items: center;
   width: 70%;
@@ -91,14 +93,12 @@ a {
 }
 
 .second-p {
-  display: flex;
   flex-direction: column;
   margin: 20px auto 0;
   width: 45%;
 }
 
 .socials {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -132,7 +132,6 @@ a {
 /* This is the aside sev */
 
 .float {
-  display: flex;
   flex-direction: column;
   width: 15%;
   margin-top: -22em;
@@ -142,7 +141,6 @@ a {
 }
 
 .pic {
-  display: flex;
   margin-bottom: 0;
   align-items: center;
 }
@@ -163,7 +161,6 @@ a {
 }
 
 .third-p {
-  display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
@@ -197,7 +194,6 @@ a {
 }
 
 .grid-item {
-  display: flex;
   flex-direction: column;
 }
 
