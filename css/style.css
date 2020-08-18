@@ -11,6 +11,10 @@ body {
   width: 5em;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   display: flex;
   width: 98%;
@@ -29,7 +33,6 @@ body {
 }
 
 .left-icons > a {
-  text-decoration: none;
   text-transform: uppercase;
   color: black;
 }
@@ -117,7 +120,6 @@ body {
 }
 
 .add a {
-  text-decoration: none;
   color: #326891;
 }
 
@@ -148,7 +150,6 @@ body {
 }
 
 .pic a {
-  text-decoration: none;
   color: black;
 }
 
@@ -260,7 +261,6 @@ body {
 }
 
 .para-1 a {
-  text-decoration: none;
   color: #666;
 }
 
@@ -290,7 +290,6 @@ body {
 
 }
 .left-title a{
-  text-decoration: none;
   color: #121212;
 }
 
@@ -320,7 +319,6 @@ width: 100%;
 
 }
 .img-desc-astro a{
-  text-decoration: none;
   color: #121212;
   align-self:flex-end;
 }
@@ -341,10 +339,56 @@ width: 100%;
   margin-top: 0;
 }
 .astro-side a{
-  text-decoration: none;
   color:black;
   font-size: 18px;
 }
 .pad{
   padding-top: 20px;
+}
+
+.footer-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 50px;
+}
+
+.footer-head a {
+  color: #666;
+  font-size: 13px;
+}
+
+.footer-head img {
+  resize: 75%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px 60px;
+}
+
+.footer-links a {
+  color: #666;
+}
+
+.last {
+  border-left: thin solid #666;
+  padding-left: 10px;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 20px;
+  width: 90%;
+  font-size: 13px;
+}
+
+.footer-end a {
+  color: #666;
+}
+
+hr {
+  margin: 20px;
 }
