@@ -279,3 +279,72 @@ body {
   outline: none;
   font-weight: bold;
 }
+
+.astro-title{
+  display: grid;
+  width: 80%;
+  grid-template-columns: 75% 25%;
+ 
+  margin:auto;
+  grid-column-gap: 30px;
+
+}
+.left-title a{
+  text-decoration: none;
+  color: #121212;
+}
+
+.astronomy{
+  display: grid;
+  width: 80%;
+  grid-template-columns: 75% 25%;
+ 
+  margin:auto;
+  grid-column-gap: 30px;
+}
+
+.astro-pics{
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-gap: 15px; */
+}
+
+.img-desc-astro{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.img-desc-astro img{
+width: 100%;
+
+}
+.img-desc-astro a{
+  text-decoration: none;
+  color: #121212;
+  align-self:flex-end;
+}
+.img-desc-astro p{
+  margin:2px;
+  font-weight: bold;
+}
+
+.img-desc-astro-container{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.container-border{
+  border-top: 1px solid black;
+  padding-top: 20px;
+  margin-top: 0;
+}
+.astro-side a{
+  text-decoration: none;
+  color:black;
+  font-size: 18px;
+}
+.pad{
+  padding-top: 20px;
+}
