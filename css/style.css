@@ -168,7 +168,7 @@ a {
   align-items: center;
   margin: 0 auto;
   width: 45%;
-  margin-left: 25.5em;
+  margin-left: 27.5%;
 }
 
 /* This is the inflation section */
@@ -223,15 +223,15 @@ a {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 4px;
   margin: 50px auto;
-  width: 63%;
-  min-height: 70vh;
+  width: 62%;
+  min-height: 74vh;
   background-image: url("../assets/images/photo_2020-08-17_23-54-05.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .inf p {
-  margin-top: 130px;
+  margin-top: 60%;
   font-size: 15px;
   color: #666;
 }
